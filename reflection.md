@@ -71,5 +71,12 @@ Document at least 3 bugs you found. Add rows as needed.
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
   - This could be a testing habit, a prompting strategy, or a way you used Git.
+  - Committing after each individual bug fix.
+  - Keeping commits small and focused makes the history much easier to read, and it's also much easier to roll back a single targeted change than to untangle several fixes bundled into one commit.
 - What is one thing you would do differently next time you work with AI on a coding task?
+  - Read and understand the full codebase before starting to debug with AI.
+  - In this project, some bugs that looked unrelated turned out to share the same root cause in the session state logic.
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+  - AI suggestions are only as useful as the context and problem description you provide.
+  - Without a clear understanding of the project structure and expected behavior, AI can produce changes that look reasonable on the surface but don't actually address the real issue.
+  - This project taught me that understanding the code is a prerequisite for using AI effectively.
